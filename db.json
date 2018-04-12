@@ -207,5 +207,6 @@
             }
          }
       ]
-   }
+   },
+   "descFooterSimulateurURL":"http://fragment.server.com/partner/page/simulateur_footer_desc.html"
 }
