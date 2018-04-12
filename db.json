@@ -35,7 +35,7 @@
       {
         "meilleuroffre": false,
         "title": "Location avec option d'achat",
-        "mensualite": 200,
+        "mensualite": 400,
         "taxe": "TTC",
         "taxeDef": "MOIS",
         "valAchatPrix": 100,
@@ -47,13 +47,13 @@
                 "titre": "Assurance de l'emprunteur",
                 "popinDescURL": "http://fragment.server.com/partner/page/assurance_emprunteur_desc.html",
                 "prix": 200,
-                "checked": true
+                "checked": false
               },
               {
                 "titre": "protection capital vehicule",
                 "popinDescURL": "http://fragment.server.com/partner/page/protection_capital_vehicule_desc.html",
                 "prix": 200,
-                "checked": true
+                "checked": false
               }
             ]
           },
@@ -64,13 +64,13 @@
                 "titre": "Extension garantie mecanique",
                 "popinDescURL": "http://fragment.server.com/partner/page/extension_garantie_mecanique_desc.html",
                 "prix": 200,
-                "checked": true
+                "checked": false
               },
               {
                 "titre": "Mecanique et réparation",
                 "popinDescURL": "http://fragment.server.com/partner/page/mecanique_reparation_desc.html",
                 "prix": 200,
-                "checked": true
+                "checked": false
               }
             ]
           }
@@ -108,13 +108,13 @@
                 "titre": "Assurance de l'emprunteur",
                 "popinDescURL": "http://fragment.server.com/partner/page/assurance_emprunteur_desc.html",
                 "prix": 200,
-                "checked": true
+                "checked": false
               },
               {
                 "titre": "protection capital vehicule",
                 "popinDescURL": "http://fragment.server.com/partner/page/protection_capital_vehicule_desc.html",
                 "prix": 200,
-                "checked": true
+                "checked": false
               }
             ]
           },
@@ -125,13 +125,13 @@
                 "titre": "Extension garantie mecanique",
                 "popinDescURL": "http://fragment.server.com/partner/page/extension_garantie_mecanique_desc.html",
                 "prix": 200,
-                "checked": true
+                "checked": false
               },
               {
                 "titre": "Mecanique et réparation",
                 "popinDescURL": "http://fragment.server.com/partner/page/mecanique_reparation_desc.html",
                 "prix": 200,
-                "checked": true
+                "checked": false
               }
             ]
           }
@@ -169,13 +169,13 @@
                 "titre": "Assurance de l'emprunteur",
                 "popinDescURL": "http://fragment.server.com/partner/page/assurance_emprunteur_desc.html",
                 "prix": 200,
-                "checked": true
+                "checked": false
               },
               {
                 "titre": "protection capital vehicule",
                 "popinDescURL": "http://fragment.server.com/partner/page/protection_capital_vehicule_desc.html",
                 "prix": 200,
-                "checked": true
+                "checked": false
               }
             ]
           },
@@ -186,13 +186,13 @@
                 "titre": "Extension garantie mecanique",
                 "popinDescURL": "http://fragment.server.com/partner/page/extension_garantie_mecanique_desc.html",
                 "prix": 200,
-                "checked": true
+                "checked": false
               },
               {
                 "titre": "Mecanique et réparation",
                 "popinDescURL": "http://fragment.server.com/partner/page/mecanique_reparation_desc.html",
                 "prix": 200,
-                "checked": true
+                "checked": false
               }
             ]
           }
