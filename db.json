@@ -10,211 +10,181 @@
       "apport": {
         "apport_Max": 3000,
         "apport_Min": 0,
-        "defaultApport": 2000,
-        "apportValue": 2000
+        "defaultApport": 2000
       },
       "duree": {
-        "duree_Max": 60,
-        "durre_Min": 36,
-        "defaultduree": 48,
-        "dureeValue": 48
+        "duree_Max": 3000,
+        "duree_Min": 0,
+        "defaultDuree": 1000
       },
       "km": {
-        "KM_Max": 30000,
+        "KM_Max": 3000,
         "KM_Min": 0,
-        "default_Km": 15000,
-        "KM_value": 15000
+        "default_Km": 1500
       },
       "totale_Km_Desc": {
         "valeur": 33542,
         "type": "KM",
-        "Desc": "KM description"
+        "desc": "KM description"
       }
     },
-    "offres": [
-      {
+    "offres":[{
         "meilleuroffre": false,
         "title": "Location avec option d'achat",
-        "mensualite": 400,
+        "mensualite": 200,
+        "type": "euro",
         "taxe": "TTC",
         "taxeDef": "MOIS",
         "valAchatPrix": 100,
-        "option": [
-          {
+        "valAchatType": "euro",
+        "option":[ {
+
             "titreOptionBloc": "Assurer votre contrat",
-            "opt": [
-              {
-                "titre": "Assurance de l'emprunteur",
-                "popinDescURL": "http://fragment.server.com/partner/page/assurance_emprunteur_desc.html",
-                "prix": 200,
-                "checked": false
-              },
-              {
-                "titre": "protection capital vehicule",
-                "popinDescURL": "http://fragment.server.com/partner/page/protection_capital_vehicule_desc.html",
-                "prix": 200,
-                "checked": false
-              }
-            ]
-          },
-          {
+            "opt":[ {
+              "titre": "Assurance de l'emprunteur",
+              "popinDescURL": "http://fragment.server.com/partner/page/assurance_emprunteur_desc.html",
+              "prix": 200
+            }, {
+              "titre": "protection capital vehicule",
+              "popinDescURL": "http://fragment.server.com/partner/page/protection_capital_vehicule_desc.html",
+              "prix": 200
+            }]
+
+          }
+        ,{
             "titreOptionBloc": "protégez votre vehicule",
-            "opt": [
-              {
-                "titre": "Extension garantie mecanique",
-                "popinDescURL": "http://fragment.server.com/partner/page/extension_garantie_mecanique_desc.html",
-                "prix": 200,
-                "checked": false
-              },
-              {
-                "titre": "Mecanique et réparation",
-                "popinDescURL": "http://fragment.server.com/partner/page/mecanique_reparation_desc.html",
-                "prix": 200,
-                "checked": false
-              }
-            ]
-          }
-        ],
-        "optionDefault": [
-          {
-            "desc": "frais de dossier offert",
+            "opt":[ {
+              "titre": "Extension garantie mecanique",
+              "popinDescURL": "http://fragment.server.com/partner/page/extension_garantie_mecanique_desc.html",
+              "prix": 200
+            }, {
+              "titre": "Mecanique et réparation",
+              "popinDescURL": "http://fragment.server.com/partner/page/mecanique_reparation_desc.html",
+              "prix": 200
+            }]
+
+          }],
+        "optionDefault":[ {
+
+            "titre": "frais de dossier offert",
             "popinDescURL": "http://fragment.server.com/partner/page/frais_dossier_offert_desc.html"
-          },
-          {
-            "desc": "1ere mensualité à 60 jours",
+          },{
+
+            "titre": "1ere mensualité à 60 jours",
             "popinDescURL": "http://fragment.server.com/partner/page/mensualite_60_jours_desc.html"
-          },
-          {
-            "desc": "avantage fidélité",
+          },{
+
+            "titre": "avantage fidélité",
             "popinDescURL": "http://fragment.server.com/partner/page/avantage_fidelite_desc.html"
-          }
-        ],
+        }],
         "mentionLegale": {
           "popinDesc": "http://fragment.server.com/partner/page/mention_legale.html"
         }
-      },
-      {
+      }, {
         "meilleuroffre": true,
         "title": "Location longue durée",
-        "mensualite": 300,
+        "mensualite": 200,
+        "type": "euro",
         "taxe": "TTC",
         "taxeDef": "MOIS",
         "valAchatPrix": 100,
-        "option": [
-          {
+        "valAchatType": "euro",
+        "option":[ {
+
             "titreOptionBloc": "Assurer votre contrat",
-            "opt": [
-              {
-                "titre": "Assurance de l'emprunteur",
-                "popinDescURL": "http://fragment.server.com/partner/page/assurance_emprunteur_desc.html",
-                "prix": 200,
-                "checked": false
-              },
-              {
-                "titre": "protection capital vehicule",
-                "popinDescURL": "http://fragment.server.com/partner/page/protection_capital_vehicule_desc.html",
-                "prix": 200,
-                "checked": false
-              }
-            ]
-          },
-          {
+            "opt":[ {
+              "titre": "Assurance de l'emprunteur",
+              "popinDescURL": "http://fragment.server.com/partner/page/assurance_emprunteur_desc.html",
+              "prix": 200
+            }, {
+              "titre": "protection capital vehicule",
+              "popinDescURL": "http://fragment.server.com/partner/page/protection_capital_vehicule_desc.html",
+              "prix": 200
+            }]
+
+          }
+        ,{
             "titreOptionBloc": "protégez votre vehicule",
-            "opt": [
-              {
-                "titre": "Extension garantie mecanique",
-                "popinDescURL": "http://fragment.server.com/partner/page/extension_garantie_mecanique_desc.html",
-                "prix": 200,
-                "checked": false
-              },
-              {
-                "titre": "Mecanique et réparation",
-                "popinDescURL": "http://fragment.server.com/partner/page/mecanique_reparation_desc.html",
-                "prix": 200,
-                "checked": false
-              }
-            ]
-          }
-        ],
-        "optionDefault": [
-          {
-            "desc": "frais de dossier offert",
+            "opt":[ {
+              "titre": "Extension garantie mecanique",
+              "popinDescURL": "http://fragment.server.com/partner/page/extension_garantie_mecanique_desc.html",
+              "prix": 200
+            }, {
+              "titre": "Mecanique et réparation",
+              "popinDescURL": "http://fragment.server.com/partner/page/mecanique_reparation_desc.html",
+              "prix": 200
+            }]
+
+          }],
+        "optionDefault":[ {
+
+            "titre": "frais de dossier offert",
             "popinDescURL": "http://fragment.server.com/partner/page/frais_dossier_offert_desc.html"
-          },
-          {
-            "desc": "1ere mensualité à 60 jours",
+          },{
+
+            "titre": "1ere mensualité à 60 jours",
             "popinDescURL": "http://fragment.server.com/partner/page/mensualite_60_jours_desc.html"
-          },
-          {
-            "desc": "avantage fidélité",
+          },{
+
+            "titre": "avantage fidélité",
             "popinDescURL": "http://fragment.server.com/partner/page/avantage_fidelite_desc.html"
-          }
-        ],
+        }],
         "mentionLegale": {
           "popinDesc": "http://fragment.server.com/partner/page/mention_legale.html"
         }
-      },
-      {
+      }, {
         "meilleuroffre": false,
         "title": "Vente à crédit",
-        "mensualite": 400,
+        "mensualite": 200,
+        "type": "euro",
         "taxe": "TTC",
         "taxeDef": "MOIS",
         "valAchatPrix": 100,
-        "option": [
-          {
+        "valAchatType": "euro",
+        "option":[ {
+
             "titreOptionBloc": "Assurer votre contrat",
-            "opt": [
-              {
-                "titre": "Assurance de l'emprunteur",
-                "popinDescURL": "http://fragment.server.com/partner/page/assurance_emprunteur_desc.html",
-                "prix": 200,
-                "checked": false
-              },
-              {
-                "titre": "protection capital vehicule",
-                "popinDescURL": "http://fragment.server.com/partner/page/protection_capital_vehicule_desc.html",
-                "prix": 200,
-                "checked": false
-              }
-            ]
-          },
-          {
+            "opt":[ {
+              "titre": "Assurance de l'emprunteur",
+              "popinDescURL": "http://fragment.server.com/partner/page/assurance_emprunteur_desc.html",
+              "prix": 200
+            }, {
+              "titre": "protection capital vehicule",
+              "popinDescURL": "http://fragment.server.com/partner/page/protection_capital_vehicule_desc.html",
+              "prix": 200
+            }]
+
+          }
+        ,{
             "titreOptionBloc": "protégez votre vehicule",
-            "opt": [
-              {
-                "titre": "Extension garantie mecanique",
-                "popinDescURL": "http://fragment.server.com/partner/page/extension_garantie_mecanique_desc.html",
-                "prix": 200,
-                "checked": false
-              },
-              {
-                "titre": "Mecanique et réparation",
-                "popinDescURL": "http://fragment.server.com/partner/page/mecanique_reparation_desc.html",
-                "prix": 200,
-                "checked": false
-              }
-            ]
-          }
-        ],
-        "optionDefault": [
-          {
-            "desc": "frais de dossier offert",
+            "opt":[ {
+              "titre": "Extension garantie mecanique",
+              "popinDescURL": "http://fragment.server.com/partner/page/extension_garantie_mecanique_desc.html",
+              "prix": 200
+            }, {
+              "titre": "Mecanique et réparation",
+              "popinDescURL": "http://fragment.server.com/partner/page/mecanique_reparation_desc.html",
+              "prix": 200
+            }]
+
+          }],
+        "optionDefault":[ {
+
+            "titre": "frais de dossier offert",
             "popinDescURL": "http://fragment.server.com/partner/page/frais_dossier_offert_desc.html"
-          },
-          {
-            "desc": "1ere mensualité à 60 jours",
+          },{
+
+            "titre": "1ere mensualité à 60 jours",
             "popinDescURL": "http://fragment.server.com/partner/page/mensualite_60_jours_desc.html"
-          },
-          {
-            "desc": "avantage fidélité",
+          },{
+
+            "titre": "avantage fidélité",
             "popinDescURL": "http://fragment.server.com/partner/page/avantage_fidelite_desc.html"
-          }
-        ],
+        }],
         "mentionLegale": {
           "popinDesc": "http://fragment.server.com/partner/page/mention_legale.html"
         }
-      }
-    ]
-  }
+     }]
+  },
+  "descFooterSimulateurURL": "http://fragment.server.com/partner/page/simulateur_footer_desc.html"
 }
