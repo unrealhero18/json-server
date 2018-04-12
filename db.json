@@ -18,7 +18,7 @@
             "defaultDuree":1000
          },
          "km":{
-            "KM_Max":3000,
+            "KM_Max":30000,
             "KM_Min":0,
             "default_Km":1500
          },
