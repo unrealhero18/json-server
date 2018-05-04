@@ -1,0 +1,276 @@
+{
+   "simulateur":{
+      "inputParam":{
+         "vehicule_a_tarifer":{
+            "code_meilleur_offre_init":"LOA",
+            "code_argus_marque":"123456798",
+            "code_argus_modele":"234567891",
+            "code_argus_variant":"345678912",
+            "type_vehicule":"VN",
+            "prix_vehicule":"27500",
+            "prix_options":"2500",
+            "duree_init":"36",
+            "km_init":"0",
+            "apport_init":"3004",
+            "usage_init":"PERS",
+            "produit":"LOA|LLD|VAC"
+         },
+         "apporteur":{
+            "code_apporteur":"AZX-123456"
+         }
+      },
+      "outputParam":{
+         "usage":{
+            "type":{
+               "prive":false,
+               "perso":true
+            }
+         },
+         "reglettes":{
+            "apport":{
+               "apport_Max":"@@max_contribution@@",
+               "apport_Min":"@@min_contribution@@",
+               "selected_apport":2100
+            },
+            "duree":{
+               "duree_Max":"@@max_duration@@",
+               "duree_Min":"@@min_duration@@",
+               "selected_duree":2100
+            },
+            "km":{
+               "KM_Max":"@@max_distance@@",
+               "KM_Min":"@@min_distance@@",
+               "selected_km":2100
+            },
+            "totale_Km_Desc":{
+               "valeur":"@@total_km@@",
+               "desc":"KM description"
+            }
+         },
+         "offres":[
+            {
+               "code_offre":"LOA",
+               "Titre_court":"LOA",
+               "meilleuroffre":false,
+               "title":"Location avec Option d'Achat",
+               "mensualite":"@@mensualite_loa@@",
+               "premiere_mensualite_hors_ass":"3900",
+               "taux_premiere_mensualite_hors_ass":"15%",
+               "option_achat_finale_hors_ass":"11675,99",
+               "montant_total_avec_achat_hors_ass":"29115,21",
+               "type":"euro",
+               "taxe":"TTC",
+               "taxeDef":"MOIS",
+               "val_rachat_prix":100,
+               "valAchatType":"euro",
+               "code_bareme":"XGJ786530",
+               "option":[
+                  {
+                     "titreOptionBloc":"Assurer votre contrat",
+                     "opt":[
+                        {
+                           "codeOption":"836749027",
+                           "titre":"Assurance de l'emprunteur",
+                           "popinDesc":"le contenu de la description",
+                           "prix":10,
+                           "checked":false
+                        },
+                        {
+                           "codeOption":"836749037",
+                           "titre":"protection capital vehicule",
+                           "popinDesc":"le contenu de la description",
+                           "prix":15,
+                           "checked":false
+                        }
+                     ]
+                  },
+                  {
+                     "titreOptionBloc":"Protégez votre vehicule",
+                     "opt":[
+                        {
+                           "codeOption":"836749067",
+                           "titre":"Extension garantie mecanique",
+                           "popinDesc":"le contenu de la description",
+                           "prix":20,
+                           "checked":false
+                        },
+                        {
+                           "codeOption":"836749097",
+                           "titre":"Mecanique et réparation",
+                           "popinDesc":"le contenu de la description",
+                           "prix":25,
+                           "checked":false
+                        }
+                     ]
+                  }
+               ],
+               "optionDefault":[
+                  {
+                     "titre":"Frais de dossier offert"
+                  },
+                  {
+                     "titre":"1ere mensualité à 60 jours"
+                  },
+                  {
+                     "titre":"Avantage fidélité"
+                  }
+               ],
+               "mentionLegale":{
+                  "titre_desc":"le contenu du titre",
+                  "desc":"le contenu de la description",
+                  "desc_footer":"http://fragment.server.com/partner/page/protection_capital_vehicule_desc.html"
+               },
+               "desc_offre_footer_simulateur":{
+                  "titre_desc":"le contenu du titre",
+                  "desc":"le contenu de la description"
+               }
+            },
+            {
+               "code_offre":"LLD",
+               "Titre_court":"LLD",
+               "meilleuroffre":true,
+               "title":"Location Longue Durée",
+               "mensualite":" @@mensualite_lld@@",
+               "type":"euro",
+               "taxe":"TTC",
+               "taxeDef":"MOIS",
+               "val_rachat_prix":100,
+               "valAchatType":"euro",
+               "option":[
+                  {
+                     "titreOptionBloc":"Assurer votre contrat LLD",
+                     "opt":[
+                        {
+                           "codeOption":"896749097",
+                           "titre":"Assurance de l'emprunteur",
+                           "popinDesc":"le contenu de la description",
+                           "prix":30,
+                           "checked":false
+                        },
+                        {
+                           "codeOption":"896799097",
+                           "titre":"Protection capital vehicule LLD",
+                           "popinDesc":"le contenu de la description",
+                           "prix":35,
+                           "checked":false
+                        }
+                     ]
+                  },
+                  {
+                     "titreOptionBloc":"Protégez votre vehicule LLD",
+                     "opt":[
+                        {
+                           "codeOption":"896799047",
+                           "titre":"Extension garantie mecanique LLD",
+                           "popinDesc":"le contenu de la description",
+                           "prix":40,
+                           "checked":false
+                        },
+                        {
+                           "codeOption":"89679672047",
+                           "titre":"Mecanique et réparation LLD",
+                           "popinDesc":"le contenu de la description",
+                           "prix":45,
+                           "checked":false
+                        }
+                     ]
+                  }
+               ],
+               "optionDefault":[
+                  {
+                     "codeOption":"6789909876",
+                     "titre":"Frais de dossier offert"
+                  },
+                  {
+                     "codeOption":"6789909898",
+                     "titre":"1ere mensualité à 60 jours"
+                  },
+                  {
+                     "codeOption":"6789909879",
+                     "titre":"Avantage fidélité"
+                  }
+               ],
+               "mentionLegale":{
+                  "titre_desc":"le contenu du titre",
+                  "desc":"le contenu de la description",
+                  "desc_footer":"http://fragment.server.com/partner/page/protection_capital_vehicule_desc.html"
+               },
+               "desc_offre_footer_simulateur":{
+                  "titre_desc":"le contenu du titre",
+                  "desc":"le contenu de la description"
+               }
+            },
+            {
+               "code_offre":"VAC",
+               "Titre_court":"VAC",
+               "meilleuroffre":false,
+               "title":"Vente à Crédit",
+               "mensualite":"@@mensualite_vac@@",
+               "type":"euro",
+               "taxe":"TTC",
+               "taxeDef":"MOIS",
+               "val_rachat_prix":100,
+               "valAchatType":"euro",
+               "option":[
+                  {
+                     "titreOptionBloc":"Assurer votre contrat VAC",
+                     "opt":[
+                        {
+                           "codeOption":"6784509876",
+                           "titre":"Assurance de l'emprunteur",
+                           "popinDesc":"le contenu de la description",
+                           "prix":12,
+                           "checked":false
+                        },
+                        {
+                           "codeOption":"69884509876",
+                           "titre":"protection capital vehicule",
+                           "popinDesc":"le contenu de la description",
+                           "prix":17,
+                           "checked":false
+                        }
+                     ]
+                  },
+                  {
+                     "titreOptionBloc":"Protégez votre vehicule VAC",
+                     "opt":[
+                        {
+                           "titre":"Extension garantie mecanique VAC",
+                           "popinDesc":"le contenu de la description",
+                           "prix":22,
+                           "checked":false
+                        },
+                        {
+                           "titre":"Mecanique et réparation VAC",
+                           "popinDesc":"le contenu de la description",
+                           "prix":27,
+                           "checked":false
+                        }
+                     ]
+                  }
+               ],
+               "optionDefault":[
+                  {
+                     "titre":"Frais de dossier offert VAC"
+                  },
+                  {
+                     "titre":"1ere mensualité à 60 jours VAC"
+                  },
+                  {
+                     "titre":"Avantage fidélité VAC"
+                  }
+               ],
+               "mentionLegale":{
+                  "titre_desc":"le contenu du titre",
+                  "desc":"le contenu de la description",
+                  "desc_footer":"http://fragment.server.com/partner/page/protection_capital_vehicule_desc.html"
+               },
+               "desc_offre_footer_simulateur":{
+                  "titre_desc":"le contenu du titre",
+                  "desc":"le contenu de la description"
+               }
+            }
+         ]
+      }
+   }
+}
