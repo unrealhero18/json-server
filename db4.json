@@ -1,0 +1,790 @@
+{
+   "rows":[
+      {
+         "entity_type_id":"staci_offer_order",
+         "bundle_id":"staci_offer_order",
+         "entity_id":"110",
+         "fields":{
+            "order_id":{
+               "label":"Ordre",
+               "value":"292",
+               "entity_type_id":"commerce_order"
+            },
+            "offer_id":{
+               "label":"Offer",
+               "value":"offer 43",
+               "entity_type_id":"staci_offer"
+            },
+            "full_number":{
+               "label":"Full number",
+               "widget_type":"text",
+               "value":"292\/43"
+            },
+            "is_validatable":{
+               "label":"Is validatable",
+               "value":false
+            },
+            "total_price":{
+               "label":"Total price",
+               "widget_type":"price",
+               "value":{
+                  "base_price":{
+                     "number":"2.00",
+                     "currency_code":"EUR"
+                  },
+                  "calculated_price":{
+                     "number":"2.00",
+                     "currency_code":"EUR"
+                  }
+               }
+            },
+            "shipping_address":{
+               "label":"Adresse de livraison",
+               "widget_type":"text",
+               "value":"(STF) STF, 2 2 - 2, Albanie"
+            },
+            "form_submission":{
+               "label":"Formulaire",
+               "value":"2",
+               "entity_type_id":"staci_order_submission",
+               "entity":{
+                  "entity_type_id":"staci_order_submission",
+                  "bundle_id":"test",
+                  "entity_id":"2",
+                  "fields":{
+                     "field_test343":{
+                        "label":"test",
+                        "widget_type":"text",
+                        "value":"test"
+                     }
+                  }
+               }
+            },
+            "field_state":{
+               "label":"State",
+               "widget_type":"text",
+               "value":{
+                  "key":"validated",
+                  "label":"Validated"
+               }
+            },
+            "order__uid":{
+               "label":"Customer",
+               "value":"1357",
+               "entity_type_id":"user"
+            },
+            "order__placed":{
+               "label":"Placed",
+               "value":"19\/11\/19"
+            },
+            "order_customer__name":{
+               "widget_type":"text",
+               "value":"tstukalo"
+            }
+         }
+      },
+      {
+         "entity_type_id":"staci_offer_order",
+         "bundle_id":"staci_offer_order",
+         "entity_id":"108",
+         "fields":{
+            "order_id":{
+               "label":"Ordre",
+               "value":"290",
+               "entity_type_id":"commerce_order"
+            },
+            "offer_id":{
+               "label":"Offer",
+               "value":"offer 43",
+               "entity_type_id":"staci_offer"
+            },
+            "full_number":{
+               "label":"Full number",
+               "widget_type":"text",
+               "value":"290\/43"
+            },
+            "is_validatable":{
+               "label":"Is validatable",
+               "value":false
+            },
+            "total_price":{
+               "label":"Total price",
+               "widget_type":"price",
+               "value":{
+                  "base_price":{
+                     "number":"2.00",
+                     "currency_code":"EUR"
+                  },
+                  "calculated_price":{
+                     "number":"2.00",
+                     "currency_code":"EUR"
+                  }
+               }
+            },
+            "shipping_address":{
+               "label":"Adresse de livraison",
+               "widget_type":"text",
+               "value":"(STF) STF, 2 2 - 2, Albanie"
+            },
+            "form_submission":{
+               "label":"Formulaire",
+               "value":null,
+               "entity_type_id":"staci_order_submission"
+            },
+            "field_state":{
+               "label":"State",
+               "widget_type":"text",
+               "value":{
+                  "key":"validated",
+                  "label":"Validated"
+               }
+            },
+            "order__uid":{
+               "label":"Customer",
+               "value":"1357",
+               "entity_type_id":"user"
+            },
+            "order__placed":{
+               "label":"Placed",
+               "value":"19\/11\/19"
+            },
+            "order_customer__name":{
+               "widget_type":"text",
+               "value":"tstukalo"
+            }
+         }
+      },
+      {
+         "entity_type_id":"staci_offer_order",
+         "bundle_id":"staci_offer_order",
+         "entity_id":"107",
+         "fields":{
+            "order_id":{
+               "label":"Ordre",
+               "value":"289",
+               "entity_type_id":"commerce_order"
+            },
+            "offer_id":{
+               "label":"Offer",
+               "value":"offer 43",
+               "entity_type_id":"staci_offer"
+            },
+            "full_number":{
+               "label":"Full number",
+               "widget_type":"text",
+               "value":"289\/43"
+            },
+            "is_validatable":{
+               "label":"Is validatable",
+               "value":false
+            },
+            "total_price":{
+               "label":"Total price",
+               "widget_type":"price",
+               "value":{
+                  "base_price":{
+                     "number":"2.00",
+                     "currency_code":"EUR"
+                  },
+                  "calculated_price":{
+                     "number":"2.00",
+                     "currency_code":"EUR"
+                  }
+               }
+            },
+            "shipping_address":{
+               "label":"Adresse de livraison",
+               "widget_type":"text",
+               "value":"(STF) STF, 2 2 - 2, Albanie"
+            },
+            "form_submission":{
+               "label":"Formulaire",
+               "value":null,
+               "entity_type_id":"staci_order_submission"
+            },
+            "field_state":{
+               "label":"State",
+               "widget_type":"text",
+               "value":{
+                  "key":"canceled",
+                  "label":"Canceled"
+               }
+            },
+            "order__uid":{
+               "label":"Customer",
+               "value":"1357",
+               "entity_type_id":"user"
+            },
+            "order__placed":{
+               "label":"Placed",
+               "value":"14\/11\/19"
+            },
+            "order_customer__name":{
+               "widget_type":"text",
+               "value":"tstukalo"
+            }
+         }
+      },
+      {
+         "entity_type_id":"staci_offer_order",
+         "bundle_id":"staci_offer_order",
+         "entity_id":"106",
+         "fields":{
+            "order_id":{
+               "label":"Ordre",
+               "value":"288",
+               "entity_type_id":"commerce_order"
+            },
+            "offer_id":{
+               "label":"Offer",
+               "value":"offer 43",
+               "entity_type_id":"staci_offer"
+            },
+            "full_number":{
+               "label":"Full number",
+               "widget_type":"text",
+               "value":"288\/43"
+            },
+            "is_validatable":{
+               "label":"Is validatable",
+               "value":false
+            },
+            "total_price":{
+               "label":"Total price",
+               "widget_type":"price",
+               "value":{
+                  "base_price":{
+                     "number":"2.00",
+                     "currency_code":"EUR"
+                  },
+                  "calculated_price":{
+                     "number":"2.00",
+                     "currency_code":"EUR"
+                  }
+               }
+            },
+            "shipping_address":{
+               "label":"Adresse de livraison",
+               "widget_type":"text",
+               "value":"(STF) STF, 2 2 - 2, Albanie"
+            },
+            "form_submission":{
+               "label":"Formulaire",
+               "value":null,
+               "entity_type_id":"staci_order_submission"
+            },
+            "field_state":{
+               "label":"State",
+               "widget_type":"text",
+               "value":{
+                  "key":"canceled",
+                  "label":"Canceled"
+               }
+            },
+            "order__uid":{
+               "label":"Customer",
+               "value":"1357",
+               "entity_type_id":"user"
+            },
+            "order__placed":{
+               "label":"Placed",
+               "value":"13\/11\/19"
+            },
+            "order_customer__name":{
+               "widget_type":"text",
+               "value":"tstukalo"
+            }
+         }
+      },
+      {
+         "entity_type_id":"staci_offer_order",
+         "bundle_id":"staci_offer_order",
+         "entity_id":"105",
+         "fields":{
+            "order_id":{
+               "label":"Ordre",
+               "value":"287",
+               "entity_type_id":"commerce_order"
+            },
+            "offer_id":{
+               "label":"Offer",
+               "value":"offer 43",
+               "entity_type_id":"staci_offer"
+            },
+            "full_number":{
+               "label":"Full number",
+               "widget_type":"text",
+               "value":"287\/43"
+            },
+            "is_validatable":{
+               "label":"Is validatable",
+               "value":false
+            },
+            "total_price":{
+               "label":"Total price",
+               "widget_type":"price",
+               "value":{
+                  "base_price":{
+                     "number":"2.00",
+                     "currency_code":"EUR"
+                  },
+                  "calculated_price":{
+                     "number":"2.00",
+                     "currency_code":"EUR"
+                  }
+               }
+            },
+            "shipping_address":{
+               "label":"Adresse de livraison",
+               "widget_type":"text",
+               "value":"(STF) STF, 2 2 - 2, Albanie"
+            },
+            "form_submission":{
+               "label":"Formulaire",
+               "value":null,
+               "entity_type_id":"staci_order_submission"
+            },
+            "field_state":{
+               "label":"State",
+               "widget_type":"text",
+               "value":{
+                  "key":"validated",
+                  "label":"Validated"
+               }
+            },
+            "order__uid":{
+               "label":"Customer",
+               "value":"1357",
+               "entity_type_id":"user"
+            },
+            "order__placed":{
+               "label":"Placed",
+               "value":"13\/11\/19"
+            },
+            "order_customer__name":{
+               "widget_type":"text",
+               "value":"tstukalo"
+            }
+         }
+      },
+      {
+         "entity_type_id":"staci_offer_order",
+         "bundle_id":"staci_offer_order",
+         "entity_id":"104",
+         "fields":{
+            "order_id":{
+               "label":"Ordre",
+               "value":"286",
+               "entity_type_id":"commerce_order"
+            },
+            "offer_id":{
+               "label":"Offer",
+               "value":"offer 43",
+               "entity_type_id":"staci_offer"
+            },
+            "full_number":{
+               "label":"Full number",
+               "widget_type":"text",
+               "value":"286\/43"
+            },
+            "is_validatable":{
+               "label":"Is validatable",
+               "value":false
+            },
+            "total_price":{
+               "label":"Total price",
+               "widget_type":"price",
+               "value":{
+                  "base_price":{
+                     "number":"2.00",
+                     "currency_code":"EUR"
+                  },
+                  "calculated_price":{
+                     "number":"2.00",
+                     "currency_code":"EUR"
+                  }
+               }
+            },
+            "shipping_address":{
+               "label":"Adresse de livraison",
+               "widget_type":"text",
+               "value":"(STF) STF, 2 2 - 2, Albanie"
+            },
+            "form_submission":{
+               "label":"Formulaire",
+               "value":null,
+               "entity_type_id":"staci_order_submission"
+            },
+            "field_state":{
+               "label":"State",
+               "widget_type":"text",
+               "value":{
+                  "key":"validated",
+                  "label":"Validated"
+               }
+            },
+            "order__uid":{
+               "label":"Customer",
+               "value":"1357",
+               "entity_type_id":"user"
+            },
+            "order__placed":{
+               "label":"Placed",
+               "value":"11\/11\/19"
+            },
+            "order_customer__name":{
+               "widget_type":"text",
+               "value":"tstukalo"
+            }
+         }
+      },
+      {
+         "entity_type_id":"staci_offer_order",
+         "bundle_id":"staci_offer_order",
+         "entity_id":"103",
+         "fields":{
+            "order_id":{
+               "label":"Ordre",
+               "value":"285",
+               "entity_type_id":"commerce_order"
+            },
+            "offer_id":{
+               "label":"Offer",
+               "value":"offer 43",
+               "entity_type_id":"staci_offer"
+            },
+            "full_number":{
+               "label":"Full number",
+               "widget_type":"text",
+               "value":"285\/43"
+            },
+            "is_validatable":{
+               "label":"Is validatable",
+               "value":false
+            },
+            "total_price":{
+               "label":"Total price",
+               "widget_type":"price",
+               "value":{
+                  "base_price":{
+                     "number":"2.00",
+                     "currency_code":"EUR"
+                  },
+                  "calculated_price":{
+                     "number":"2.00",
+                     "currency_code":"EUR"
+                  }
+               }
+            },
+            "shipping_address":{
+               "label":"Adresse de livraison",
+               "widget_type":"text",
+               "value":"(STF) STF, 2 2 - 2, Albanie"
+            },
+            "form_submission":{
+               "label":"Formulaire",
+               "value":null,
+               "entity_type_id":"staci_order_submission"
+            },
+            "field_state":{
+               "label":"State",
+               "widget_type":"text",
+               "value":{
+                  "key":"validated",
+                  "label":"Validated"
+               }
+            },
+            "order__uid":{
+               "label":"Customer",
+               "value":"1357",
+               "entity_type_id":"user"
+            },
+            "order__placed":{
+               "label":"Placed",
+               "value":"11\/11\/19"
+            },
+            "order_customer__name":{
+               "widget_type":"text",
+               "value":"tstukalo"
+            }
+         }
+      },
+      {
+         "entity_type_id":"staci_offer_order",
+         "bundle_id":"staci_offer_order",
+         "entity_id":"102",
+         "fields":{
+            "order_id":{
+               "label":"Ordre",
+               "value":"284",
+               "entity_type_id":"commerce_order"
+            },
+            "offer_id":{
+               "label":"Offer",
+               "value":"offer 43",
+               "entity_type_id":"staci_offer"
+            },
+            "full_number":{
+               "label":"Full number",
+               "widget_type":"text",
+               "value":"284\/43"
+            },
+            "is_validatable":{
+               "label":"Is validatable",
+               "value":false
+            },
+            "total_price":{
+               "label":"Total price",
+               "widget_type":"price",
+               "value":{
+                  "base_price":{
+                     "number":"2.00",
+                     "currency_code":"EUR"
+                  },
+                  "calculated_price":{
+                     "number":"2.00",
+                     "currency_code":"EUR"
+                  }
+               }
+            },
+            "shipping_address":{
+               "label":"Adresse de livraison",
+               "widget_type":"text",
+               "value":"(STF) STF, 2 2 - 2, Albanie"
+            },
+            "form_submission":{
+               "label":"Formulaire",
+               "value":null,
+               "entity_type_id":"staci_order_submission"
+            },
+            "field_state":{
+               "label":"State",
+               "widget_type":"text",
+               "value":{
+                  "key":"canceled",
+                  "label":"Canceled"
+               }
+            },
+            "order__uid":{
+               "label":"Customer",
+               "value":"1357",
+               "entity_type_id":"user"
+            },
+            "order__placed":{
+               "label":"Placed",
+               "value":"11\/11\/19"
+            },
+            "order_customer__name":{
+               "widget_type":"text",
+               "value":"tstukalo"
+            }
+         }
+      },
+      {
+         "entity_type_id":"staci_offer_order",
+         "bundle_id":"staci_offer_order",
+         "entity_id":"101",
+         "fields":{
+            "order_id":{
+               "label":"Ordre",
+               "value":"283",
+               "entity_type_id":"commerce_order"
+            },
+            "offer_id":{
+               "label":"Offer",
+               "value":"offer 43",
+               "entity_type_id":"staci_offer"
+            },
+            "full_number":{
+               "label":"Full number",
+               "widget_type":"text",
+               "value":"283\/43"
+            },
+            "is_validatable":{
+               "label":"Is validatable",
+               "value":false
+            },
+            "total_price":{
+               "label":"Total price",
+               "widget_type":"price",
+               "value":{
+                  "base_price":{
+                     "number":"2.00",
+                     "currency_code":"EUR"
+                  },
+                  "calculated_price":{
+                     "number":"2.00",
+                     "currency_code":"EUR"
+                  }
+               }
+            },
+            "shipping_address":{
+               "label":"Adresse de livraison",
+               "widget_type":"text",
+               "value":"(STF) STF, 2 2 - 2, Albanie"
+            },
+            "form_submission":{
+               "label":"Formulaire",
+               "value":null,
+               "entity_type_id":"staci_order_submission"
+            },
+            "field_state":{
+               "label":"State",
+               "widget_type":"text",
+               "value":{
+                  "key":"validated",
+                  "label":"Validated"
+               }
+            },
+            "order__uid":{
+               "label":"Customer",
+               "value":"1357",
+               "entity_type_id":"user"
+            },
+            "order__placed":{
+               "label":"Placed",
+               "value":"11\/11\/19"
+            },
+            "order_customer__name":{
+               "widget_type":"text",
+               "value":"tstukalo"
+            }
+         }
+      }
+   ],
+   "pager":{
+      "pager_type":"full",
+      "current_page":0,
+      "total_items":9,
+      "total_pages":1,
+      "items_per_page":"15"
+   },
+   "exposed_form":{
+      "sort":{
+         "full_number":{
+            "label":"Full number",
+            "current_order":"none",
+            "sort_options":{
+               "ASC":"Trier par ordre croissant",
+               "DESC":"Trier par ordre d\u00e9croissant"
+            }
+         },
+         "placed":{
+            "label":"Order placed",
+            "current_order":"DESC",
+            "sort_options":{
+               "ASC":"Trier par ordre croissant",
+               "DESC":"Trier par ordre d\u00e9croissant"
+            }
+         },
+         "field_state":{
+            "label":"State",
+            "current_order":"none",
+            "sort_options":{
+               "ASC":"Trier par ordre croissant",
+               "DESC":"Trier par ordre d\u00e9croissant"
+            }
+         }
+      },
+      "filter":{
+         "placed":{
+            "widget_type":"date_range",
+            "label":"Date de commande",
+            "required":false,
+            "value":null,
+            "conditional_fields":[
+
+            ],
+            "description":""
+         },
+         "number":{
+            "widget_type":"input",
+            "label":"Num\u00e9ro de commande",
+            "required":false,
+            "value":null,
+            "conditional_fields":[
+
+            ],
+            "description":"Entrez votre num\u00e9ro de commande"
+         },
+         "state":{
+            "widget_type":"multiselect",
+            "label":"\u00c9tat",
+            "options":[
+               {
+                  "key":"preparation",
+                  "label":"Being prepared"
+               },
+               {
+                  "key":"canceled",
+                  "label":"Canceled"
+               },
+               {
+                  "key":"confirmed",
+                  "label":"Confirmed"
+               },
+               {
+                  "key":"validated",
+                  "label":"Validated"
+               }
+            ],
+            "required":false,
+            "value":null,
+            "conditional_fields":[
+
+            ],
+            "description":"Tous les \u00e9tats en fonction du type choisi"
+         },
+         "article_reference":{
+            "widget_type":"input",
+            "label":"R\u00e9f\u00e9rence article",
+            "required":false,
+            "value":null,
+            "conditional_fields":[
+
+            ],
+            "description":"R\u00e9f\u00e9rence article"
+         },
+         "offer":{
+            "widget_type":"multiselect",
+            "label":"Offre",
+            "options":[
+
+            ],
+            "required":false,
+            "value":null,
+            "conditional_fields":[
+
+            ],
+            "description":"Toutes les offres"
+         },
+         "recipient_name":{
+            "widget_type":"input",
+            "label":"R\u00e9f\u00e9rence client",
+            "required":false,
+            "value":null,
+            "conditional_fields":[
+
+            ],
+            "description":"R\u00e9f\u00e9rence client"
+         },
+         "requester_name":{
+            "widget_type":"input",
+            "label":"ID du demandeur",
+            "required":false,
+            "value":null,
+            "conditional_fields":[
+
+            ],
+            "description":"ID du demandeur"
+         },
+         "validatable_offer_order":{
+            "widget_type":"checkbox",
+            "label":"Commandes \u00e0 valider",
+            "required":false,
+            "value":0,
+            "description":""
+         }
+      }
+   }
+}
